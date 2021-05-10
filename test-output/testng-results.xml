@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2436" started-at="2021-05-10T01:58:58Z" finished-at="2021-05-10T01:59:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2436" started-at="2021-05-10T01:58:58Z" finished-at="2021-05-10T01:59:00Z">
+      <class name="com.selenium.testng.ExcelREading">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:com.selenium.testng.ExcelREading@e2cbe0]" name="tc001" duration-ms="2347" started-at="2021-05-10T07:28:58Z" finished-at="2021-05-10T07:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- com.selenium.testng.ExcelREading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

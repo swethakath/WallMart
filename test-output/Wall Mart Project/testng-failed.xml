@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wall Mart Project]">
+  <test name="Chrome Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.selenium.testng.TC001">
+        <methods>
+          <include name="browserCode"/>
+          <include name="tc004"/>
+          <include name="tc001"/>
+          <include name="broswerClose"/>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.selenium.testng.TC001 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Wall Mart Project] -->

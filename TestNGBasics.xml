@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wall Mart Project">
+  <test name="Chrome Test" thread-count="4" parallel="classes">
+    <classes>
+      <class name="com.selenium.testng.TC001"/>
+            <class name="com.selenium.testng.TC002"/>
+            <class name="com.selenium.testng.TC003"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

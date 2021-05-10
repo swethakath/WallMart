@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.testngbasics.HomePage">
+      			<methods>
+      				<include name="tc0011"/>
+      				<exclude name="tc0012"/>
+      				<include name="tc0013"/>
+      			</methods>
+      </class>
+      
+      <class name="com.selenium.testngbasics.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
